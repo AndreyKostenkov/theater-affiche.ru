@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Загрузить изображение</title>
+</head>
+<body>
+    <h1>Загрузить изображение для фильма</h1>
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+        <label for="title">Название фильма:</label>
+        <input type="text" id="title" name="title" required>
+        <label for="image">Выберите изображение:</label>
+        <input type="file" id="image" name="image" accept="image/*" required>
+        <input type="submit" value="Загрузить">
+    </form>
+</body>
+</html>

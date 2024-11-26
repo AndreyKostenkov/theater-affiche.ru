@@ -1,2 +1,0 @@
-# theater-affiche.ru
-Кинотеатр
